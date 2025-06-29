@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/estilo2.css" />
+    <title>Tiago Lino Portfolio home</title>
+  </head>
+  <body>
+    <!-- cabeçalho -->
+    <header id="cabecalho">
+      <div class="logo">
+        <img src="/imagens/img1.jpeg" alt="logo" />
+      </div>
+
+      <nav id="navegacao">
+        <ul>
+          <li>
+            <a href="index.html" class="meu-link">Home</a>
+          </li>
+          <li>
+            <a href="https://github.com/Tiagolino10" target="_blank" class="meu-link"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tiago_insta25" target="_blank" class="meu-link"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tiagolino2020/" target="_blank" class="meu-link"
+              >linkedln</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="pagina"> 
+      <!-- conteúdo principal - "sobre mim" -->     
+      <main>
+        <section class="container-sobre-mim">
+          <h1>Sobre mim</h1>
+          <div  class="sobre-mim">
+            <div class="foto">
+              <img src="/imagens/img004.png" alt="logo" width="200px"/>
+            </div>
+            <div class="conteudo">
+              <p>
+                Olá! Me chamo Tiago Lino e sou estudante de Análise e
+                Desenvolvimento de Sistemas, com grande interesse por tecnologia,
+                desenvolvimento web e soluções criativas para problemas do dia a
+                dia.
+              </p>
+              <p>
+                Atualmente, estou me aprofundando nas linguagens HTML, CSS,
+                JavaScript e Python, com foco em criar aplicações funcionais e com
+                uma boa experiência para o usuário. Gosto de entender como as coisas
+                funcionam "por baixo do capô" e estou sempre buscando melhorar
+                minhas habilidades técnicas e minha lógica de programação.
+              </p>
+              <p>
+                Acredito que aprender é um processo contínuo, e por isso, estou
+                sempre envolvido em projetos pessoais, estudos práticos e novas
+                ferramentas. Meu objetivo é me tornar um desenvolvedor completo e
+                contribuir com projetos inovadores, seja no front-end, no back-end
+                ou integrando os dois.
+              </p>
+              <p>
+                Estou em busca de oportunidades para crescer profissionalmente,
+                seja através de estágios, freelas ou colaborações em projetos open
+                source.
+              </p>
+          </div>
+        </section>
+        <!-- seção de cards" -->  
+        <section class="container">
+          <h2>Meus Card's</h2>
+          <div class="container-cards">
+            <div class="cards">
+              <h4>Tecnologias </h4>
+              <div>
+                <ul>
+                  <li>Integração com API externa</li>
+                  <li>Sistema de autenticação</li>
+                  <li>Design responsivo</li>
+                  <li>Dashboard com gráficos</li>
+                </ul>
+              </div>
+            </div>
+             <div class="cards">
+              <h4>Tecnologias 2 </h4>
+              <div>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Node.js, etc.</li>
+                </ul>
+              </div>
+            </div>
+             <div class="cards">
+              <h4>Tecnologias 3 </h4>
+              <div>
+                <ul>
+                  <li>MySQL</li>
+                  <li>Git, GitHub</li>
+                  <li>Análise de dados</li>
+                  <li>Banco de dados</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+         <!-- seção botão de acesso do curricilo" -->  
+        <section class="sec-curriculo">
+          <h2>Curriculo</h2>
+          <div class="botao">
+        <button class="bt-curriculo" id="CurriculoBotaoLink">Click para acessar</button>
+        </div>
+        </section>
+      </main>
+      <!-- Rodapé" -->  
+      <footer class="rodape">    
+        <!-- logo e contato do  whatsapp -->      
+        <a href="https://wa.me/5511967886655?text=Ol%C3%A1%2C%20Tiago%20Lino%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho./"target="_blank"><img src="/imagens/whatsapp.png" alt="whatsapp imagem" class="rodape-img"></a> 
+        
+         <!-- formulario" -->  
+        <div>
+        <h1>Formulário</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder  ="Digite seu nome completo" >
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="">Selecione um assunto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Quero receber novidades por e-mail</label>
+            </div>
+
+            <button class="fomulariobotao" type="submit">Enviar</button>
+        </form>
+    </div>
+    
+  </form>
+        
+      </footer>
+    </div>    
+    
+    <script src="/javascript/programacao2.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+

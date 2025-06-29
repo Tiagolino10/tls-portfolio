@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "Itim", cursive;
+  min-width: 960px;
+  padding: 0 100px;
+}
+
+header {
+  text-align: center;
+  color: brown;
+  padding: 50px 0 25px 0;
+}
+
+.nome h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.nome ul {
+  text-align: center;
+  list-style: none;
+  font-size: 12px;
+}
+
+.nome a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  line-height: 1.5; /* ou pode usar em px, ex: 18px */
+  font-weight: 700;
+}
+
+.objetivo h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.objetivo p {
+  padding: 20px;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.Formacao h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.Formacao p {
+  padding: 20px;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.Habilidades h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.Habilidades ul {
+  padding: 35px;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.Projetos h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.Projetos ul {
+  padding: 35px;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.Cursos h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.Cursos ul {
+  padding: 35px;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.idiomas h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.idiomas ul {
+  padding: 35px;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.download-section {
+  margin: 50px 0 150px 0;
+  text-align: center;
+}
+
+.download-button {
+  color: black;
+  border: 2px solid red;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: auto;
+    padding: 20px;
+  }
+
+  header {
+    padding: 30px 0 20px 0;
+    font-size: 1.6rem;
+  }
+
+  .nome h2,
+  .objetivo h2,
+  .Formacao h2,
+  .Habilidades h2,
+  .Projetos h2,
+  .Cursos h2,
+  .idiomas h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .nome ul,
+  .Habilidades ul,
+  .Projetos ul,
+  .Cursos ul,
+  .idiomas ul {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .objetivo p,
+  .Formacao p {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .download-button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .download-section {
+    margin: 40px 0 80px 0;
+  }
+
+  .nome a {
+    font-size: 1.2rem;
+    word-break: break-word;
+    display: inline-block;
+  }
+}

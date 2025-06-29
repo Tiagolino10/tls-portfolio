@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700& display=swap rel= stylesheet");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Itim", cursive;
+  min-width: 96rem;
+  height: 100svh;
+}
+
+/* variavel de cor */
+:root {
+  --laranja: #ff680a;
+  --preto: #262d32;
+}
+
+#cabecalho {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: var(--laranja);
+  position: sticky;
+  top: 0;
+  min-width: 120rem;
+}
+
+.logo {
+  width: 10rem;
+  border-radius: 1rem;
+  padding-left: 8rem;
+}
+
+.logo img {
+  width: 10rem;
+  margin: auto;
+  padding: auto;
+  border-radius: 1rem;
+}
+
+#navegacao ul {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem;
+  padding-right: 8rem;
+  gap: 1.5rem;
+  list-style: none;
+  /* background-color: white; */
+}
+
+#navegacao a {
+  display: flex;
+  text-decoration: none;
+  color: #262d32;
+  font-size: 2rem;
+  transition: 1s;
+}
+
+#navegacao a:hover {
+  color: #ff680a;
+  font-size: 2rem;
+  background-color: var(--preto);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.pagina {
+  margin: 0 20rem;
+  min-width: 95rem;
+}
+
+.container-sobre-mim {
+  background-color: rgb(38, 45, 50);
+  background-image: linear-gradient(
+    180deg,
+    rgba(38, 45, 50, 0.8),
+    rgba(40, 65, 100, 0.8)
+  );
+  width: 100%;
+}
+
+.container-sobre-mim h1 {
+  font-size: 4.5rem;
+  padding: 8rem 0 3rem 0;
+  text-align: center;
+  color: #ccc;
+  text-shadow: 0.3rem 0.3rem 0.5rem rgba(255, 104, 10, 2.2);
+}
+
+.sobre-mim {
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(167, 191, 13); */
+}
+
+.foto {
+  /* background-color: aquamarine; */
+  justify-items: center;
+  /* margin: auto;
+  padding: 5px; */
+}
+
+.foto img {
+  width: 25rem;
+  justify-items: center;
+  border-radius: 50%;
+}
+
+.conteudo {
+  /* background-color: rgb(29, 98, 159); */
+  color: #ccc;
+  width: 0.3rem;
+  min-width: 55rem;
+}
+
+.conteudo P {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  text-align: justify;
+}
+
+.container {
+  background-color: rgb(255, 104, 10);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 104, 10, 0.8),
+    rgba(190, 50, 5, 0.8)
+  );
+  text-align: center;
+  width: 100%;
+}
+
+.container h2 {
+  color: #ccc;
+  text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 2.2);
+  font-size: 4.5rem;
+  padding: 5rem 0 5rem 0;
+}
+
+.container-cards {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  gap: 5rem;
+}
+
+.cards {
+  background-color: rgb(38, 45, 50);
+  background-image: linear-gradient(
+    180deg,
+    rgba(38, 45, 50, 0.8),
+    rgba(40, 65, 100, 0.8)
+  );
+  border: 0.2rem solid white;
+  color: #ccc;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+  width: 26rem;
+  height: 35rem;
+  min-width: 25rem;
+}
+
+.cards h4 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 70rem;
+  padding: 3rem 0 1rem 0;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(255, 104, 10, 2.2);
+  /* background-color: aquamarine; */
+}
+
+.cards ul {
+  text-align: left;
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+.sec-curriculo {
+  background-color: rgb(38, 45, 50);
+  background-image: linear-gradient(
+    180deg,
+    rgba(38, 45, 50, 0.8),
+    rgba(40, 65, 100, 0.8)
+  );
+}
+
+.sec-curriculo h2 {
+  text-align: center;
+  font-size: 4.5rem;
+  color: #ccc;
+  text-shadow: 0.3rem 0.3rem 0.5rem rgba(255, 104, 10, 2.2);
+  padding: 5rem;
+}
+
+.botao {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.bt-curriculo {
+  margin-bottom: 5rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: 0.2rem solid white;
+  width: 20rem;
+  background-color: #ff680a;
+  color: #ccc;
+  text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 5.5);
+  font-family: "Itim", cursive;
+  font-size: 2rem;
+}
+
+.bt-curriculo:hover {
+  color: #272a2d;
+  font-family: "Segoe UI", Tahoma;
+  border: 0.2rem solid #ff680a;
+  background-color: #262d32;
+  color: #ff680a;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(255, 104, 10, 2.2);
+  transition: 1s;
+}
+
+.rodape {
+  background-image: linear-gradient(
+    180deg,
+    rgba(29, 98, 159, 0.8),
+    rgba(159, 168, 180, 0.8)
+  );
+  width: 100%;
+  position: relative;
+  padding: 3.5rem 0 8rem 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.rodape h1 {
+  padding-bottom: 4rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #ccc;
+  font-size: 4rem;
+  text-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 5.5);
+}
+
+.form-group {
+  padding: 0 0 1rem 10rem;
+  font-family: "Times New Roman", Times, serif;
+  /* background-color: rgb(29, 159, 33); */
+}
+
+.form-group label {
+  font-weight: 700;
+  color: #ccc;
+  display: block;
+  font-size: 1.8rem;
+}
+
+.form-group input,
+select,
+textarea {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.fomulariobotao {
+  padding: 0.3rem;
+  border-radius: 1rem;
+  border: 0.2rem solid white;
+  width: 8rem;
+  background-color: #262d32;
+  color: #ccc;
+  font-family: "Itim", cursive;
+  font-size: 2rem;
+  position: absolute;
+  left: 14rem;
+}
+
+.fomulariobotao:hover {
+  background-color: #0056b3;
+  transition: background-color 3s ease;
+}
+
+.rodape-img {
+  /* position: absolute; */
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 5rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: auto;
+    height: auto;
+  }
+
+  #cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 0 0.8rem;
+    min-width: auto;
+  }
+
+  .logo {
+    padding-left: 1rem;
+    width: 50%;
+  }
+
+  .logo img {
+    width: 6rem;
+  }
+
+  #navegacao ul {
+    display: flex;
+    padding: 1rem 0;
+    padding-right: 1.5rem;
+    width: 100%;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  #navegacao a {
+    font-size: 1.8rem;
+  }
+
+  #navegacao a:hover {
+    font-size: 1.8rem;
+    padding: 0.4rem;
+  }
+
+  .pagina {
+    margin: 0 1rem;
+    min-width: auto;
+  }
+
+  .sobre-mim {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .foto img {
+    width: 18rem;
+  }
+
+  .conteudo {
+    min-width: auto;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .conteudo p {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .container-cards {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .cards {
+    width: 90%;
+    height: auto;
+  }
+
+  .cards ul {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .sec-curriculo h2 {
+    font-size: 4.5rem;
+    padding: 3rem 1rem 2rem;
+  }
+
+  .bt-curriculo {
+    width: 50%;
+    font-size: 1.8rem;
+  }
+
+  .form-group {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .form-group input,
+  select,
+  textarea {
+    width: 100%;
+  }
+
+  .fomulariobotao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rodape h1 {
+    font-size: 3rem;
+  }
+
+  .rodape-img {
+    width: 4rem;
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
